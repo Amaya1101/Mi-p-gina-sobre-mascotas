@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página sobre mascotas</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #eeeaea;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d49037d3;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #000000;
+            color: #fff;
+        }
+        button {
+            background-color: #5cb85c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+form {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: none; /* Inicialmente oculto */
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Las mascotas</h1>
+<h2>Creado por Mayabel y Monserrat</h2>
+        <nav>
+            <ul>
+                <li><a href="#mision">Misión</a></li>
+                 <li><a href="#conceptos">necesidades</a></li>
+                <li><a href="#informacion">mas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Misión, Visión y Valores -->
+    <h2>¡Descubre el mundo de las mascotas!</h2>
+    <h4>Bienvenido a nuestra página web dedicada a las mascotas, informar sobre cuidados necesarios para la salud y bienestar de las mascotas, fomentar prácticas responsables y prevenir el maltrato y abandono, en el cual tambien es promover la adopción de mascotas de refugios, y por obvias razones ofrecer consejos para mantener a las mascotas saludables y seguras y por ultimo proveer información sobre características específicas para ayudar en la elección de una mascota adecuada.</h4>
+
+    <!-- Catálogo -->
+<section id="conceptos">
+    <h2>Cuidados básicos de las mascotas</h2>   
+    <table border="1">
+        <tr>
+            <th>NECESIDADES</th><th></th>
+        </tr>
+        <tr>
+            <td>Un hogar adecuado</td><td>En primer lugar, es imprescindible que nuestro domicilio sea el adecuado para el animal que queremos incorporar, Por ejemplo, en un pequeño apartamento no será la mejor idea tener más de un gato, ya que, si no han crecido juntos, pueden surgir problemas ante la imposibilidad de disponer de espacios propios. Además, son animales que necesitan rascadores, lugares a los que subirse, sitios resguardados en los que esconderse, etc. Por otra parte, si optamos por la adopción de algún animal que requiera jaula, terrario o acuario, es fundamental que nos informemos para saber cuáles son las condiciones que deben cumplir estas instalaciones para poder mantener el bienestar animal.</td>
+        </tr>
+        <tr>
+            <td>La mejor alimentación</td><td>Si de cuidados de las mascotas se trata, es fundamental recordar que cada especie tendrá unas necesidades nutricionales específicas No va a comer lo mismo un cachorro que un perro adulto ni un animal enfermo que uno sano. Por ejemplo, la comida de perros y de gatos, como ambos son carnívoros, tiene que basarse en la proteína de origen animal, que puede completarse con cereales, legumbres, verduras y frutas para obtener hidratos de carbono, vitaminas y minerales.</td>
+        </tr>
+        <tr>
+            <td>La socialización y la educación</td><td> La socialización, que es el proceso por el que exponemos al animal a todo tipo de estímulos para que se acostumbre a ellos y no le generen estrés, es recomendable para cualquier especie.</td>
+        </tr>
+        <tr>
+            <td>La higiene básica</td><td>Normalmente, podremos ocuparnos en casa de mantener la higiene de nuestro animal de compañía. Cepillados, cortes de uñas, limpieza de orejas, de dientes o baños son algunos de los cuidados básicos de higiene que deberemos implantar con la regularidad que nuestro animal necesite. </td>
+        </tr>
+        <tr>
+            <td>El cuidado de la salud</td><td>Todos los animales tienen que acudir con regularidad al veterinario, por lo menos una vez al año y siempre que muestren signos compatibles con alguna enfermedad. También debemos estar preparados para imprevistos. Además, cada especie necesitará sus desparasitaciones internas y externas mensuales y sus vacunas. El veterinario nos recomendará las imprescindibles para nuestro animal. Por lo tanto, resulta fundamental que encontremos uno de confianza y que siempre tengamos a mano el teléfono de alguno de urgencias que trabaje fuera del horario laboral para poder atender cualquier emergencia.</td>
+        </tr>
+        <tr>
+            <td>El deber de identificar a nuestro animal</td><td>Antes de adoptar es necesario que nos informemos de todos los requisitos según la especie con la que convivamos. Además, es buena idea que aquellos animales con acceso al exterior lleven un collar con una chapa identificativa por si se extravían o sufren un accidente. Permitirá encontrarlos con más rapidez que el propio chip.</td>
+        </tr>
+
+    </table>
+</section>
+
+
+    <!-- mas informacion -->
+    <section id="mas">
+        <h2>mas informacion</h2><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion de los animales en casa</title>
+</head>
+<body>
+    <style>
+        body {
+           font-family: 'Arial', sans-serif;
+           background-color: #eeeaea;
+           margin: 0;
+           padding: 0;
+       }
+       header {
+            background-color: #d49037d3;
+            color: #0a0000;
+            padding: 10px 0;
+            text-align: center;
+        }
+       nav ul {
+           padding: 0;
+           list-style: none;
+       }
+       nav ul li {
+           display: inline;
+           margin-right: 20px;
+       }
+       nav a {
+           text-decoration: none;
+           color: #fff;
+       }
+       section {
+           margin: 20px;
+           padding: 20px;
+           background: #fff;
+           border-radius: 8px;
+           box-shadow: 0 0 10px rgba(0,0,0,0.1);
+       }
+   </style>
+ <!-- Encabezado -->
+ <header>
+     <section id="Animales">
+     <h1>ANIMALES</section>
+ </header>
+     <p>Visualize los videos adjuntos para poder entender mejor los cuidados de sus animales o que animales poder adoptar:</p>
+
+ <!-- informacion -->
+
+            <section id="perros">
+                <h2>Perros</h2>
+                <p>Los perros son una de las mascotas más populares en todo el mundo.</p>
+                <img src="perros.jpeg" height="150" alt="Perro">
+            </section>
+            <ul>
+                <li><a href="https://youtu.be/LZ9AKsUCcTI?si=tfEW1RrCakm3-ue4">Cuidado de perros cachorros</a></li>
+                <li><a href="https://youtu.be/pI9P3LQv6T4?si=iLuNFBI50GeIrmJv">Cuidado de perros ancianos</a></li>
+            </ul>
+            <section id="gatos">
+                <h2>Gatos</h2>
+                <p>Los gatos son conocidos por su independencia y personalidad única.</p>
+                <img src="gatos.jpg" height="250" alt="Gatos">
+            </section>
+            <ul>
+                <li><a href="https://youtu.be/J3NAYXXyBVI?si=rPkcJP-IIgDYmu8c">Cuidado de gatos bebes</a></li>
+                <li><a href="https://youtu.be/v00ci8BvBIE?si=JspYHw8BlKy1g3P8">Cuidado de gatos ancianos</a></li>
+            </ul>
+
+            <section id="otros">
+                <h2>Otros animales</h2>
+                <p>Además de perros y gatos, hay muchas otras mascotas que podemos tener, como pájaros, peces, etc.</p>
+                <img src="Otos.jpeg"   height="160" alt="otros">
+             <p><h3>¿Que otros animales puedo tener en casa?</h3></p>
+             <ul>
+                <li><a href="https://youtu.be/hyrBmdVWArE?si=wQPSvqB1IiJRCnOV">Los 10 mejores</a></li>
+                <li><a href="https://youtu.be/LgRJrfROOeA?si=O-Nrp_JrPoL95WLQ">mascotas exoticas</a></li>
+            </ul>
+            </section>
+        
+             <!-- mas informacion -->
+    <section id="mas">
+        <h2>mas informacion</h2>
+        
+            <ul>
+                <li><a href="mascotas.html">inicio</a></li>
+                <li><a href="informacion.html">comentarios</a></li>
+            </ul>
+    
+    </section>
+    <footer>
+        <p>© 2024 Mi Página de Mascotas</p>
+    </footer>
+    <footer>
+        <p>Derechos de autor © 2024 Mi Página sobre Mascotas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+        
+            <ul>
+                <li><a href="Animales.html">Animales</a></li>
+            </ul>
+    
+    </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+</head>
+<body>
+    <style>
+        body {
+           font-family: 'Arial', sans-serif;
+           background-color: #eeeaea;
+           margin: 0;
+           padding: 0;
+       }
+       header {
+            background-color: #d49037d3;
+            color: #0a0000;
+            padding: 10px 0;
+            text-align: center;
+        }
+       nav ul {
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+   </style>
+    <!-- Encabezado -->
+    
+    <section id="informacion">
+        <header>
+        <h2>COMENTARIOS</h2>
+    </header>
+    </section>
+     <!-- comentarios -->
+   
+<h4>Dejanos algun comentario al respecto:</h4>
+     
+    <section id="contacto">
+        <p>¿Tienes alguna pregunta o comentario sobre nuestra página? ¡Nos encantaría saber de ti! Ponte en contacto con nosotros a través del siguiente formulario o nuestras redes sociales.</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+    <ul>
+        <li><a href="mascotas.html">Inicio</a></li>
+        <li><a href="Animales">Animales</a></li>
+    </ul>
+
+</body>
+</html>
